@@ -12,6 +12,8 @@ En este proyecto donde se ha realizado una página web, es permitir al inventari
 - **Frontend:** React.js, React Context API (para la gestión global del carrito), CSS / Estilos personalizados (Paleta: Rosado y Negro).
 - **Backend:** Node.js, Express.js.
 - **Base de datos:** MySQL (Gestión de persistencia para productos, stock y categorías).
+
+
   
 #CAPTURAS DE PANTALLA
 ###Inicio de sesión
@@ -21,10 +23,10 @@ En este proyecto donde se ha realizado una página web, es permitir al inventari
 ![Vista del fastech](./Inicio/Introducción_contraseña.png)
 
 ###Pantalla de visualización de productos 
-![Vista del fastech](./Pantalla1.png)
+![Vista del fastech](./Inicio/Pantalla1.png)
 
 ###Agregando productos
-![Vista del fastech](./pantalla2.png)
+![Vista del fastech](./Inicio/pantalla2.png)
 
 ###Visualización de productos introducidos 
 ![Vista del fastech](./Inicio/pantalla3.png)
@@ -35,13 +37,15 @@ En este proyecto donde se ha realizado una página web, es permitir al inventari
 ###Evidencia de registro en la base de dtos
 ![Vista del fastech](./Inicio/basedatos.png)
 
-#Características Principales del Sistema
 
+#Características Principales del Sistema
 Arquitectura Cliente-Servidor Real: La aplicación no trabaja de forma aislada; utiliza un flujo completo donde la interfaz de usuario interactúa directamente con un servidor backend (Node.js/Express) encargado de procesar las peticiones y comunicarse con el motor de base de datos relacional para resguardar la información.
 
 Diseño UI Corporativo y Responsivo: Cuenta con una interfaz moderna basada en una paleta de colores lila, morado y gris oscuro. Además, está optimizada para ser completamente responsiva, lo que permite visualizar y gestionar las tablas de productos o los formularios desde computadoras de escritorio y dispositivos móviles (celulares) sin perder la estructura ni el orden visual.
 
 Reactividad en Tiempo Real: Al estar construida sobre React.js, la interfaz actualiza los componentes visuales de manera inmediata al detectar cambios en el inventario, evitando tener que recargar la página web manualmente para ver los nuevos registros.
+
+
 
  #Funcionalidades
 Formulario de Registro Automatizado: Permite la entrada de nuevos artículos tecnológicos al sistema mediante campos validados para capturar el nombre del producto, la descripción técnica, el precio unitario y la cantidad disponible en stock.
@@ -50,7 +54,4 @@ Tabla Dinámica de Control de Productos: Muestra el inventario consolidado en un
 
 Módulo de Persistencia de Datos: Conecta la lógica del negocio con la base de datos (con soporte optimizado para migraciones a MariaDB/MySQL), asegurando que cada producto agregado se registre de forma permanente en tablas relacionales indexadas por llaves primarias (id AUTO_INCREMENT), previniendo la duplicidad o pérdida de información.
 
-#Impacto y Eficiencia Operativa (Gran Funcionamiento)
-
-El verdadero valor del sistema de FastTech radica en la centralización y la automatización del inventario. Al sustituir los registros manuales o las hojas de cálculo tradicionales por esta aplicación web, se reduce a cero el margen de error humano al registrar stock, se aceleran los tiempos de auditoría interna y se garantiza un respaldo seguro del activo más valioso de la empresa: sus datos. La combinación de componentes limpios en el código asegura que la aplicación sea escalable, permitiendo en un futuro añadir fácilmente funciones de ventas, alertas de bajo stock o reportes automáticos.
 
