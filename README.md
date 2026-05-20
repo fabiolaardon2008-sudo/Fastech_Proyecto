@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# PROYECTO01 - FASTECH
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Descripción
+En este proyecto donde se ha realizado una página web, es permitir al inventario iniciar sesión para ingresar los productos qeu se van ir almacenando para la venta, donde se agregaran diversos productos para poder vender al usuario, continuamente en la pestalla de registro de ventas se visualiza la venta que se ha generado, con el monto de venta y la hora de registro para manejar las ventas que se van vendiendo a la hora, esta aplicación es una página web muy sencilla y útil para la funcionalidad del inventario.
 
-## Available Scripts
+##Características
+- Tiene una interfaz atractiva (paleta de colores con tonos rosas y negros).
+- Utiliza MySQL para guardar los datos de usuarios y productos.
+- Cuenta con un panel de administración de inventario exclusivo para administradores.
+- Utiliza un servidor local para hacer la experiencia más interactiva
+  #Tecnologías
+- **Frontend:** React.js, React Context API (para la gestión global del carrito), CSS / Estilos personalizados (Paleta: Rosado y Negro).
+- **Backend:** Node.js, Express.js.
+- **Base de datos:** MySQL (Gestión de persistencia para productos, stock y categorías).
+  
+#CAPTURAS DE PANTALLA
+###Inicio de sesión
+![Vista del fastech](./Inicio/Inicio_proyecto01.png)
 
-In the project directory, you can run:
+###Introducir contraseña
+![Vista del fastech](./Inicio/Introducción_contraseña.png)
 
-### `npm start`
+###Pantalla de visualización de productos 
+![Vista del fastech](./Pantalla1.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###Agregando productos
+![Vista del fastech](./pantalla2.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###Visualización de productos introducidos 
+![Vista del fastech](./Inicio/pantalla3.png)
 
-### `npm test`
+###Ventas realizadas
+![Vista del fastech](./Inicio/pantalla4.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###Evidencia de registro en la base de dtos
+![Vista del fastech](./Inicio/basedatos.png)
 
-### `npm run build`
+#Características Principales del Sistema
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Arquitectura Cliente-Servidor Real: La aplicación no trabaja de forma aislada; utiliza un flujo completo donde la interfaz de usuario interactúa directamente con un servidor backend (Node.js/Express) encargado de procesar las peticiones y comunicarse con el motor de base de datos relacional para resguardar la información.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Diseño UI Corporativo y Responsivo: Cuenta con una interfaz moderna basada en una paleta de colores lila, morado y gris oscuro. Además, está optimizada para ser completamente responsiva, lo que permite visualizar y gestionar las tablas de productos o los formularios desde computadoras de escritorio y dispositivos móviles (celulares) sin perder la estructura ni el orden visual.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Reactividad en Tiempo Real: Al estar construida sobre React.js, la interfaz actualiza los componentes visuales de manera inmediata al detectar cambios en el inventario, evitando tener que recargar la página web manualmente para ver los nuevos registros.
 
-### `npm run eject`
+ #Funcionalidades
+Formulario de Registro Automatizado: Permite la entrada de nuevos artículos tecnológicos al sistema mediante campos validados para capturar el nombre del producto, la descripción técnica, el precio unitario y la cantidad disponible en stock.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tabla Dinámica de Control de Productos: Muestra el inventario consolidado en una cuadrícula estructurada y limpia. Los usuarios pueden auditar de un vistazo rápido qué productos se encuentran listos para la distribución y el estado general del almacén tecnológico.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Módulo de Persistencia de Datos: Conecta la lógica del negocio con la base de datos (con soporte optimizado para migraciones a MariaDB/MySQL), asegurando que cada producto agregado se registre de forma permanente en tablas relacionales indexadas por llaves primarias (id AUTO_INCREMENT), previniendo la duplicidad o pérdida de información.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#Impacto y Eficiencia Operativa (Gran Funcionamiento)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+El verdadero valor del sistema de FastTech radica en la centralización y la automatización del inventario. Al sustituir los registros manuales o las hojas de cálculo tradicionales por esta aplicación web, se reduce a cero el margen de error humano al registrar stock, se aceleran los tiempos de auditoría interna y se garantiza un respaldo seguro del activo más valioso de la empresa: sus datos. La combinación de componentes limpios en el código asegura que la aplicación sea escalable, permitiendo en un futuro añadir fácilmente funciones de ventas, alertas de bajo stock o reportes automáticos.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
