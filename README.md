@@ -3,40 +3,6 @@
 ##Descripción
 En este proyecto donde se ha realizado una página web, es permitir al inventario iniciar sesión para ingresar los productos qeu se van ir almacenando para la venta, donde se agregaran diversos productos para poder vender al usuario, continuamente en la pestalla de registro de ventas se visualiza la venta que se ha generado, con el monto de venta y la hora de registro para manejar las ventas que se van vendiendo a la hora, esta aplicación es una página web muy sencilla y útil para la funcionalidad del inventario.
 
-##Características
-- Tiene una interfaz atractiva (paleta de colores con tonos rosas y negros).
-- Utiliza MySQL para guardar los datos de usuarios y productos.
-- Cuenta con un panel de administración de inventario exclusivo para administradores.
-- Utiliza un servidor local para hacer la experiencia más interactiva
-  #Tecnologías
-- **Frontend:** React.js, React Context API (para la gestión global del carrito), CSS / Estilos personalizados (Paleta: Rosado y Negro).
-- **Backend:** Node.js, Express.js.
-- **Base de datos:** MySQL (Gestión de persistencia para productos, stock y categorías).
-
-
-  
-#CAPTURAS DE PANTALLA
-###Inicio de sesión
-![Vista del fastech](./Inicio/Inicio_proyecto01.png)
-
-###Introducir contraseña
-![Vista del fastech](./Inicio/Introducción_contraseña.png)
-
-###Pantalla de visualización de productos 
-![Vista del fastech](./Inicio/Pantalla1.png)
-
-###Agregando productos
-![Vista del fastech](./Inicio/pantalla2.png)
-
-###Visualización de productos introducidos 
-![Vista del fastech](./Inicio/pantalla3.png)
-
-###Ventas realizadas
-![Vista del fastech](./Inicio/pantalla4.png)
-
-###Evidencia de registro en la base de dtos
-![Vista del fastech](./Inicio/basedatos.png)
-
 
 #Características Principales del Sistema
 Arquitectura Cliente-Servidor Real: La aplicación no trabaja de forma aislada; utiliza un flujo completo donde la interfaz de usuario interactúa directamente con un servidor backend (Node.js/Express) encargado de procesar las peticiones y comunicarse con el motor de base de datos relacional para resguardar la información.
@@ -44,6 +10,32 @@ Arquitectura Cliente-Servidor Real: La aplicación no trabaja de forma aislada; 
 Diseño UI Corporativo y Responsivo: Cuenta con una interfaz moderna basada en una paleta de colores lila, morado y gris oscuro. Además, está optimizada para ser completamente responsiva, lo que permite visualizar y gestionar las tablas de productos o los formularios desde computadoras de escritorio y dispositivos móviles (celulares) sin perder la estructura ni el orden visual.
 
 Reactividad en Tiempo Real: Al estar construida sobre React.js, la interfaz actualiza los componentes visuales de manera inmediata al detectar cambios en el inventario, evitando tener que recargar la página web manualmente para ver los nuevos registros.
+
+
+
+
+  
+#CAPTURAS DE PANTALLA
+###Inicio de sesión
+![Vista del fastech](./src/Inicio/Inicio_proyecto01.png)
+
+###Introducir contraseña
+![Vista del fastech](./src/Inicio/Introducción_contraseña.png)
+
+###Pantalla de visualización de productos 
+![Vista del fastech](./src/Inicio/Pantalla1.png)
+
+###Agregando productos
+![Vista del fastech](./src/Inicio/pantalla2.png)
+
+###Visualización de productos introducidos 
+![Vista del fastech](./src/Inicio/pantalla3.png)
+
+###Ventas realizadas
+![Vista del fastech](./src/Inicio/pantalla4.png)
+
+###Evidencia de registro en la base de dtos
+![Vista del fastech](./src/Inicio/basedatos.png)
 
 
 
